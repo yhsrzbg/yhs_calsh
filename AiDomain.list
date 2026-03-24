@@ -1,0 +1,102 @@
+# 3rd part AI router
+
+DOMAIN-SUFFIX,cerebras.ai
+
+# 内容：OpenAi,claude,recraft,poe,bing,gemini,perplexity
+
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,datadoghq
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,a.nel.cloudflare.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,ab.chatgpt.com
+
+#claude
+DOMAIN-KEYWORD,anthropic
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude Helper
+DOMAIN-KEYWORD,claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,console.anthropic.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+#recraft
+DOMAIN-SUFFIX,recraft.ai
+
+#poe
+DOMAIN-SUFFIX,poe.com
+
+#aitools
+PROCESS-NAME,LM Studio
+DOMAIN-SUFFIX,lmsudio.ai
+
+#grok
+PROCESS-NAME,grok
+DOMAIN-KEYWORD,grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+#perplexity.ai
+DOMAIN-SUFFIX,perplexity.ai
+
+#VS CODE AI chat
+PROCESS-NAME,Code Helper
+PROCESS-NAME,Code Helper (Plugin)
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,api.githubcopilot.com
+DOMAIN-SUFFIX,api.github.com
+DOMAIN-SUFFIX,github.gallery.vsassets.io
+DOMAIN-SUFFIX,github.gallerycdn.vsassets.io
+DOMAIN-SUFFIX,applicationinsights.azure.com
+
+
+#Google Gemini 
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,people-pa.clients6.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,clients6.google.com
+
+
+# Antigravity
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-KEYWORD,antigravity
+PROCESS-NAME,Antigravity Helper
+PROCESS-NAME,Antigravity Helper (Renderer)
+PROCESS-NAME,Antigravity Helper (GPU)
+PROCESS-NAME,Antigravity Helper (Plugin)
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
